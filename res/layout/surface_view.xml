@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+  <SurfaceView
+      android:id="@+id/surface_camera"
+      style="@style/AppTheme"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:background="@color/white" >
+
+	</SurfaceView>
+
+     <Button
+         android:id="@+id/deactivate"
+         android:layout_width="250dp"
+         android:layout_height="250dp"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="102dp"
+         android:background="@drawable/stop_bt"
+         android:padding="10dp"
+         android:visibility="invisible" />
+
+     <Button
+         android:id="@+id/activate"
+         android:layout_width="250dp"
+         android:layout_height="250dp"
+         android:layout_alignBaseline="@+id/deactivate"
+         android:layout_alignBottom="@+id/deactivate"
+         android:layout_alignLeft="@+id/deactivate"
+         android:background="@drawable/start_bt2"
+         android:padding="50px" />
+
+     <TextView
+         android:id="@+id/timer"
+         android:layout_width="fill_parent"
+         android:layout_height="50px"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:text=" "
+         android:textColor="#cc0000"
+         android:textSize="20dp"
+         android:visibility="invisible" />
+        
+</RelativeLayout>
+

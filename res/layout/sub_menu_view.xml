@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#cc0000" />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#cc0000" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#cc0000" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="4"
+        android:text="@string/save_new" />
+
+    <TextView
+        android:id="@+id/explanation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_is_word_activation_and_decibel_system"
+        android:textColor="#cc0000"
+        android:textSize="15px"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="25px"
+            android:layout_height="40px"
+            android:layout_marginLeft="4px"
+            android:layout_marginRight="10px" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#cc0000"
+            android:textSize="20px" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="45px"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/icon13"
+            android:layout_width="25px"
+            android:layout_height="40px"
+            android:layout_marginLeft="4px"
+            android:layout_marginRight="10px" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/label13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textColor="#cc0000"
+            android:textSize="20px" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
